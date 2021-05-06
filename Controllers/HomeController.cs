@@ -6,32 +6,33 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ExerciseBuilder.Models;
+using ExerciseBuilder.Domain.Interfaces;
 
 namespace ExerciseBuilder.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IConfigService _configService;
+        private readonly IPlannerService _plannerService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,
+                              IConfigService configService,
+                              IPlannerService plannerService)
         {
             _logger = logger;
+            _configService = configService;
+            _plannerService = plannerService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+
+           var exercises =  await _configService.ReadConfig();
+           await _plannerService.Plan(exercises);
+
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }

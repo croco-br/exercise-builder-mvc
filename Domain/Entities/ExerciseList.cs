@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace ExerciseBuilder.Models
+namespace ExerciseBuilder.Domain.Entities
 {
     public class ExerciseRoot
     {

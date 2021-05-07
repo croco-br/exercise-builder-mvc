@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using ExerciseBuilder.Models;
+using ExerciseBuilder.Domain.Entities;
+using ExerciseBuilder.ViewModels;
 
 namespace ExerciseBuilder.Domain.Interfaces
 {
     public interface IPlannerService
     {
-        Task<object> Plan(List<Exercise> exerciseList);
+        List<PlanEntry> Build(List<Exercise> exerciseList);
     }
 }

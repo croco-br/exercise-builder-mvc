@@ -5,7 +5,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.IO;
 using System.Threading.Tasks;
-using ExerciseBuilder.Models;
+using ExerciseBuilder.ViewModels;
+using ExerciseBuilder.Domain.Entities;
 
 namespace ExerciseBuilder.Domain.Services
 {

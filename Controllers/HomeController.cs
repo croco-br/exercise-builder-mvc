@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ExerciseBuilder.Models;
 using ExerciseBuilder.Domain.Interfaces;
 
 namespace ExerciseBuilder.Controllers
@@ -27,9 +22,8 @@ namespace ExerciseBuilder.Controllers
 
         public async Task<IActionResult> Index()
         {
-
-           var exercises =  await _configService.ReadConfig();
-           await _plannerService.Plan(exercises);
+            var exercises = await _configService.ReadConfig();
+            var plan = _plannerService.Build(exercises);
 
             return View();
         }

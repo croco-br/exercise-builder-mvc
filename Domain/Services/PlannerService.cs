@@ -5,8 +5,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.IO;
 using System.Threading.Tasks;
-using ExerciseBuilder.Models;
+using ExerciseBuilder.ViewModels;
 using System.Linq;
+using ExerciseBuilder.Domain.Entities;
 
 namespace ExerciseBuilder.Domain.Services
 {
@@ -17,23 +18,23 @@ namespace ExerciseBuilder.Domain.Services
         {
             _random = new Random();
         }
-        public Task<object> Plan(List<Exercise> exerciseList)
+        public List<PlanEntry> Build(List<Exercise> exerciseList)
         {
             var exerciseQuantity = _random.Next(5, 10);
-            var result = new List<object>();
+            var result = new List<PlanEntry>();
 
             for (int i = 0; i < exerciseQuantity; i++)
             {
                 var elem = exerciseList.ElementAt(_random.Next(0, exerciseList.Count));
-                result.Add(new
+                result.Add(new PlanEntry() 
                 {
-                    exercise = elem,
-                    series = _random.Next(3, 5),
-                    repetitions = _random.Next(8, 12),
+                    Exercise = elem,
+                    Series = _random.Next(3, 5),
+                    Repetitions = _random.Next(8, 12),
                 });
             }
 
-            return null;
+            return  result;
         }
 
 

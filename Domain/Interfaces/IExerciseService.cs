@@ -6,8 +6,8 @@ using ExerciseBuilder.ViewModels;
 
 namespace ExerciseBuilder.Domain.Interfaces
 {
-    public interface IConfigService
+    public interface IExerciseService
     {
-        Task<List<Exercise>> ReadConfig();
+        Task<List<Exercise>> Generate();
     }
 }

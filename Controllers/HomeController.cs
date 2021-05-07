@@ -2,30 +2,35 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ExerciseBuilder.Domain.Interfaces;
+using ExerciseBuilder.ViewModels;
 
 namespace ExerciseBuilder.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IConfigService _configService;
+        private readonly IExerciseService _exerciseService;
         private readonly IPlannerService _plannerService;
 
         public HomeController(ILogger<HomeController> logger,
-                              IConfigService configService,
+                              IExerciseService exerciseService,
                               IPlannerService plannerService)
         {
             _logger = logger;
-            _configService = configService;
+            _exerciseService = exerciseService;
             _plannerService = plannerService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var exercises = await _configService.ReadConfig();
+            var exercises = await _exerciseService.Generate();
             var plan = _plannerService.Build(exercises);
 
-            return View();
+            return View("Index", new HomeViewModel()
+            {
+                Exercises = exercises,
+                Plan = plan
+            });
         }
 
     }

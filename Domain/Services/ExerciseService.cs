@@ -10,9 +10,9 @@ using ExerciseBuilder.Domain.Entities;
 
 namespace ExerciseBuilder.Domain.Services
 {
-    public sealed class ConfigService : IConfigService
+    public sealed class ExerciseService : IExerciseService
     {
-        public async Task<List<Exercise>> ReadConfig()
+        public async Task<List<Exercise>> Generate()
         {
             using (FileStream fs = File.OpenRead("Config/exercise-list.json"))
             {

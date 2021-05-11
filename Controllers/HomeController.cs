@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ExerciseBuilder.Domain.Interfaces;
+using ExerciseBuilder.Domain.Entities;
 using ExerciseBuilder.ViewModels;
+using System.Linq;
 
 namespace ExerciseBuilder.Controllers
 {
@@ -24,11 +26,30 @@ namespace ExerciseBuilder.Controllers
         public async Task<IActionResult> Index()
         {
             var exercises = await _exerciseService.Generate();
-            var plan = _plannerService.Build(exercises);
+            var plan = _plannerService.Build(exercises, new WorkoutParameters());
 
             return View("Index", new HomeViewModel()
             {
                 Exercises = exercises,
+                MuscleGroups = exercises
+                .Select(x=> x.MuscleGroup)
+                .Distinct().ToList(),
+                Plan = plan
+            });
+        }
+
+          public async Task<IActionResult> Generate(object parameters)
+        {
+            var exercises = await _exerciseService.Generate();
+            var plan = _plannerService.Build(exercises,
+                                             new WorkoutParameters(3,5,5,10));
+
+            return View("Index", new HomeViewModel()
+            {
+                Exercises = exercises,
+                MuscleGroups = exercises
+                .Select(x=> x.MuscleGroup)
+                .Distinct().ToList(),
                 Plan = plan
             });
         }

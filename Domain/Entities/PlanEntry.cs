@@ -4,6 +4,6 @@ namespace ExerciseBuilder.Domain.Entities
     {
         public Exercise Exercise { get; set; }
         public int Series { get; set; }
-        public int Repetitions { get; set; }
+        public int Quantity { get; set; }
     }
 }

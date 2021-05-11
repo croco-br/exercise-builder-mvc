@@ -14,29 +14,46 @@ namespace ExerciseBuilder.Domain.Services
     public sealed class PlannerService : IPlannerService
     {
         private readonly Random _random;
+
         public PlannerService()
         {
             _random = new Random();
         }
-        public List<PlanEntry> Build(List<Exercise> exerciseList)
+        public List<PlanEntry> Build(List<Exercise> exerciseList, WorkoutParameters parameters)
         {
-            var exerciseQuantity = _random.Next(5, 10);
+            var exerciseQuantity = _random.Next(parameters.minimumExerciseQuantity, parameters.maximumExerciseQuantity);
             var result = new List<PlanEntry>();
 
             for (int i = 0; i < exerciseQuantity; i++)
             {
                 var elem = exerciseList.ElementAt(_random.Next(0, exerciseList.Count));
-                result.Add(new PlanEntry() 
+                var entry = new PlanEntry()
                 {
                     Exercise = elem,
-                    Series = _random.Next(3, 5),
-                    Repetitions = _random.Next(8, 12),
-                });
+                    Series = _random.Next(parameters.minimumSeries, parameters.maximumSeries),
+                    Quantity = GetQuantityByMethod(elem.Method)
+                };
+
+                result.Add(entry);
             }
 
-            return  result;
+            return result;
         }
 
+        private int GetQuantityByMethod(string method)
+        {
+            switch (method)
+            {
+                case "isometry":
+                    return _random.Next(20, 40);
+
+                case "repetitions":
+                default:
+                    return _random.Next(8, 12);
+
+            }
+
+        }
 
     }
 }

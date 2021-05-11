@@ -14,6 +14,9 @@ namespace ExerciseBuilder.Domain.Entities
 
         [JsonPropertyName("difficulty")]
         public int Difficulty { get; set; }
+        
+        [JsonPropertyName("method")]
+        public string Method { get; set; }
 
         [JsonPropertyName("reference")]
         public string Reference { get; set; }

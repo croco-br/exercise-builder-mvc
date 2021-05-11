@@ -6,7 +6,30 @@ Layout = "_Layout";
 <div class="container">
    <div class="row">
       <div class="col">
-         @Model.Exercises.Count() available exercises!
+         <div>
+            @Model.Exercises.Count() available exercises!
+         </div>
+         Muscle Groups:
+         <ul>
+            @foreach (var mg in Model.Exercises.Select(x=> x.MuscleGroup).Distinct().ToList())
+            {
+            <li>
+               <input type="checkbox"> @mg
+            </li>
+            }
+         </ul>
+         Extra equipment available:
+         <ul>
+         <li>
+          <input type="checkbox"> Without equipment only
+         </li>
+          <li>
+          <input type="checkbox"> Dumbbells
+         </li>
+          <li>
+          <input type="checkbox"> Pull up bar
+         </li>
+         </ul>
          <button>Generate</button>           
       </div>
       <div class="col">
@@ -14,17 +37,23 @@ Layout = "_Layout";
          @foreach (var planEntry in Model.Plan)
          {
          <ul>
-            <li><a href="@planEntry.Exercise.Reference">@planEntry.Exercise.ExerciseName</a> (@planEntry.Series Series of @planEntry.Repetitions Repetitions)</li>
+            @if(@planEntry.Exercise.Method == "repetitions")
+            {
+            <li><a href="@planEntry.Exercise.Reference">@planEntry.Exercise.ExerciseName</a> (@planEntry.Series Series of @planEntry.Quantity Repetitions)</li>
+            }else
+            {
+            <li><a href="@planEntry.Exercise.Reference">@planEntry.Exercise.ExerciseName</a> (@planEntry.Series Series of @planEntry.Quantity Seconds)</li>
+            }
          </ul>
          }     
       </div>
       <div class="col">
-        Check which is done:
+         Check which is done:
          @foreach (var planEntry in Model.Plan)
          {
          <ul>
             <li>
-            <input type="checkbox"> @planEntry.Exercise.ExerciseName
+               <input type="checkbox"> @planEntry.Exercise.ExerciseName
             </li>
          </ul>
          }  

@@ -1,286 +1,333 @@
 {
   "exercise-list": [
-   {
-     "exercise-name": "Incline Push-ups",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Incline+Push-ups"
-   },
-   {
-     "exercise-name": "Push-ups",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Push-ups"
-   },
-   {
-     "exercise-name": "Decline Push-ups",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Decline+Push-ups"
-   },
-   {
-     "exercise-name": "Close-Hands Push Ups (Diamond Push-Ups)",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Close-Hands+Push+Ups+(Diamond+Push-Ups)"
-   },
-   {
-     "exercise-name": "Wide-Hands Push-Ups",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Wide-Hands+Push-Ups"
-   },
-   {
-     "exercise-name": "Chest Dips",
-     "muscle-group": "Chest",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Chest+Dips"
-   },
-   {
-     "exercise-name": "Pull-ups",
-     "muscle-group": "Back",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Pull-ups"
-   },
-   {
-     "exercise-name": "Chin-ups",
-     "muscle-group": "Back",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Chin-ups"
-   },
-   {
-     "exercise-name": "Close-Hands Pull-ups",
-     "muscle-group": "Back",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Close-Hands+Pull-ups"
-   },
-   {
-     "exercise-name": "Wide-Hands Pull-ups",
-     "muscle-group": "Back",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Wide-Hands+Pull-ups"
-   },
-   {
-     "exercise-name": "Inverted Rows",
-     "muscle-group": "Back",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Inverted+Rows"
-   },
-   {
-     "exercise-name": "Pike Push-ups",
-     "muscle-group": "Shoulder",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Pike+Push-ups"
-   },
-   {
-     "exercise-name": "Handstand Push-ups",
-     "muscle-group": "Shoulder",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Handstand+Push-ups"
-   },
-   {
-     "exercise-name": "Handstand Holds",
-     "muscle-group": "Shoulder",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Handstand+Holds"
-   },
-   {
-     "exercise-name": "Dive Bomber Push-ups",
-     "muscle-group": "Shoulder",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Dive+Bomber+Push-ups"
-   },
-   {
-     "exercise-name": "Plank",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Plank"
-   },
-   {
-     "exercise-name": "Side Plank",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Side+Plank"
-   },
-   {
-     "exercise-name": "Hanging Knee Raises",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Hanging+Knee+Raises"
-   },
-   {
-     "exercise-name": "Hanging Leg Raises",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Hanging+Leg+Raises"
-   },
-   {
-     "exercise-name": "Front Levers",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Front+Levers"
-   },
-   {
-     "exercise-name": "Bicycles",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Bicycles"
-   },
-   {
-     "exercise-name": "Flutter Kicks",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Flutter+Kicks"
-   },
-   {
-     "exercise-name": "Dragon Flags",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Dragon+Flags"
-   },
-   {
-     "exercise-name": "Windshield Wipers",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Windshield+Wipers"
-   },
-   {
-     "exercise-name": "Legs Hold (6-inches)",
-     "muscle-group": "Abs",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Legs+Hold+(6-inches)"
-   },
-   {
-     "exercise-name": "Dips",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Dips"
-   },
-   {
-     "exercise-name": "Dip Holds",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Dip+Holds"
-   },
-   {
-     "exercise-name": "Inverted Rows",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Inverted+Rows"
-   },
-   {
-     "exercise-name": "Close-Grip Chin-ups",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Close-Grip+Chin-ups"
-   },
-   {
-     "exercise-name": "Bench Dips",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Bench+Dips"
-   },
-   {
-     "exercise-name": "Diamond Pushups",
-     "muscle-group": "Arm",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Diamond+Pushups"
-   },
-   {
-     "exercise-name": "Squats",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Squats"
-   },
-   {
-     "exercise-name": "Pistol Squats",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Pistol+Squats"
-   },
-   {
-     "exercise-name": "Squat Jumps",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Squat+Jumps"
-   },
-   {
-     "exercise-name": "Lunges",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Lunges"
-   },
-   {
-     "exercise-name": "Box Jumps (Bench Jumps)",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Box+Jumps+(Bench+Jumps)"
-   },
-   {
-     "exercise-name": "Calf Raises",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Calf+Raises"
-   },
-   {
-     "exercise-name": "Wall Sits",
-     "muscle-group": "Leg",
-     "difficulty": 1,
-     "reference": "https://www.youtube.com/results?search_query=Wall+Sits"
-   },
-   {
-     "exercise-name": "Typewriter Pull-ups",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Typewriter+Pull-ups"
-   },
-   {
-     "exercise-name": "Muscle-ups",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Muscle-ups"
-   },
-   {
-     "exercise-name": "Front Levers",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Front+Levers"
-   },
-   {
-     "exercise-name": "Clapping Push-ups",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Clapping+Push-ups"
-   },
-   {
-     "exercise-name": "Clapping Pull-ups",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Clapping+Pull-ups"
-   },
-   {
-     "exercise-name": "One-Handed Push-ups",
-     "muscle-group": "Chest",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=One-Handed+Push-ups"
-   },
-   {
-     "exercise-name": "Planches",
-     "muscle-group": "Arm",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Planches"
-   },
-   {
-     "exercise-name": "Dragon Flags",
-     "muscle-group": "Abs",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Dragon+Flags"
-   },
-   {
-     "exercise-name": "Handstand Push-ups",
-     "muscle-group": "Various",
-     "difficulty": 3,
-     "reference": "https://www.youtube.com/results?search_query=Handstand+Push-ups"
-   }
+    {
+      "exercise-name": "Incline Push-ups",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Incline+Push-ups"
+    },
+    {
+      "exercise-name": "Push-ups",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Push-ups"
+    },
+    {
+      "exercise-name": "Decline Push-ups",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Decline+Push-ups"
+    },
+    {
+      "exercise-name": "Close-Hands Push Ups (Diamond Push-Ups)",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Close-Hands+Push+Ups+(Diamond+Push-Ups)"
+    },
+    {
+      "exercise-name": "Wide-Hands Push-Ups",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Wide-Hands+Push-Ups"
+    },
+    {
+      "exercise-name": "Chest Dips",
+      "muscle-group": "Chest",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Chest+Dips"
+    },
+    {
+      "exercise-name": "Pull-ups",
+      "muscle-group": "Back",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Pull-ups"
+    },
+    {
+      "exercise-name": "Chin-ups",
+      "muscle-group": "Back",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Chin-ups"
+    },
+    {
+      "exercise-name": "Close-Hands Pull-ups",
+      "muscle-group": "Back",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Close-Hands+Pull-ups"
+    },
+    {
+      "exercise-name": "Wide-Hands Pull-ups",
+      "muscle-group": "Back",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Wide-Hands+Pull-ups"
+    },
+    {
+      "exercise-name": "Inverted Rows",
+      "muscle-group": "Back",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Inverted+Rows"
+    },
+    {
+      "exercise-name": "Pike Push-ups",
+      "muscle-group": "Shoulder",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Pike+Push-ups"
+    },
+    {
+      "exercise-name": "Handstand Push-ups",
+      "muscle-group": "Shoulder",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Handstand+Push-ups"
+    },
+    {
+      "exercise-name": "Handstand Holds",
+      "muscle-group": "Shoulder",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Handstand+Holds"
+    },
+    {
+      "exercise-name": "Dive Bomber Push-ups",
+      "muscle-group": "Shoulder",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Dive+Bomber+Push-ups"
+    },
+    {
+      "exercise-name": "Plank",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "isometry",
+      "reference": "https://www.youtube.com/results?search_query=Plank"
+    },
+    {
+      "exercise-name": "Side Plank",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "isometry",
+      "reference": "https://www.youtube.com/results?search_query=Side+Plank"
+    },
+    {
+      "exercise-name": "Hanging Knee Raises",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Hanging+Knee+Raises"
+    },
+    {
+      "exercise-name": "Hanging Leg Raises",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Hanging+Leg+Raises"
+    },
+    {
+      "exercise-name": "Front Levers",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Front+Levers"
+    },
+    {
+      "exercise-name": "Bicycles",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Bicycles"
+    },
+    {
+      "exercise-name": "Flutter Kicks",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Flutter+Kicks"
+    },
+    {
+      "exercise-name": "Dragon Flags",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Dragon+Flags"
+    },
+    {
+      "exercise-name": "Windshield Wipers",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Windshield+Wipers"
+    },
+    {
+      "exercise-name": "Legs Hold (6-inches)",
+      "muscle-group": "Abs",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Legs+Hold+(6-inches)"
+    },
+    {
+      "exercise-name": "Dips",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Dips"
+    },
+    {
+      "exercise-name": "Dip Holds",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Dip+Holds"
+    },
+    {
+      "exercise-name": "Inverted Rows",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Inverted+Rows"
+    },
+    {
+      "exercise-name": "Close-Grip Chin-ups",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Close-Grip+Chin-ups"
+    },
+    {
+      "exercise-name": "Bench Dips",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Bench+Dips"
+    },
+    {
+      "exercise-name": "Diamond Pushups",
+      "muscle-group": "Arm",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Diamond+Pushups"
+    },
+    {
+      "exercise-name": "Squats",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Squats"
+    },
+    {
+      "exercise-name": "Pistol Squats",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Pistol+Squats"
+    },
+    {
+      "exercise-name": "Squat Jumps",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Squat+Jumps"
+    },
+    {
+      "exercise-name": "Lunges",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Lunges"
+    },
+    {
+      "exercise-name": "Box Jumps (Bench Jumps)",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Box+Jumps+(Bench+Jumps)"
+    },
+    {
+      "exercise-name": "Calf Raises",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Calf+Raises"
+    },
+    {
+      "exercise-name": "Wall Sits",
+      "muscle-group": "Leg",
+      "difficulty": 1,
+      "method": "isometry",
+      "reference": "https://www.youtube.com/results?search_query=Wall+Sits"
+    },
+    {
+      "exercise-name": "Typewriter Pull-ups",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Typewriter+Pull-ups"
+    },
+    {
+      "exercise-name": "Muscle-ups",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Muscle-ups"
+    },
+    {
+      "exercise-name": "Front Levers",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Front+Levers"
+    },
+    {
+      "exercise-name": "Clapping Push-ups",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Clapping+Push-ups"
+    },
+    {
+      "exercise-name": "Clapping Pull-ups",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Clapping+Pull-ups"
+    },
+    {
+      "exercise-name": "One-Handed Push-ups",
+      "muscle-group": "Chest",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=One-Handed+Push-ups"
+    },
+    {
+      "exercise-name": "Planches",
+      "muscle-group": "Arm",
+      "difficulty": 3,
+      "method": "isometry",
+      "reference": "https://www.youtube.com/results?search_query=Planches"
+    },
+    {
+      "exercise-name": "Dragon Flags",
+      "muscle-group": "Abs",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Dragon+Flags"
+    },
+    {
+      "exercise-name": "Handstand Push-ups",
+      "muscle-group": "Various",
+      "difficulty": 3,
+      "method": "repetitions",
+      "reference": "https://www.youtube.com/results?search_query=Handstand+Push-ups"
+    }
   ]
-  }
+}

@@ -1,0 +1,35 @@
+﻿@model PlanViewModel
+@{
+ViewData["Title"] = "Home";
+Layout = "_Layout";
+}
+<div class="container">
+   <div class="row">
+      <div class="col">
+         The plan is:
+         @foreach (var planEntry in Model.Plan)
+         {
+         <ul>
+            @if(@planEntry.Exercise.Method == "repetitions")
+            {
+            <li><a href="@planEntry.Exercise.Reference">@planEntry.Exercise.ExerciseName</a> (@planEntry.Series Series of @planEntry.Quantity Repetitions)</li>
+            }else
+            {
+            <li><a href="@planEntry.Exercise.Reference">@planEntry.Exercise.ExerciseName</a> (@planEntry.Series Series of @planEntry.Quantity Seconds)</li>
+            }
+         </ul>
+         }     
+      </div>
+      <div class="col">
+         Check which is done:
+         @foreach (var planEntry in Model.Plan)
+         {
+         <ul>
+            <li>
+               <input type="checkbox"> @planEntry.Exercise.ExerciseName
+            </li>
+         </ul>
+         }  
+      </div>
+
+</div>

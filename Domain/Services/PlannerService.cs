@@ -19,12 +19,12 @@ namespace ExerciseBuilder.Domain.Services
         {
             _random = new Random();
         }
-        public List<PlanEntry> Build(List<Exercise> exerciseList, WorkoutParameters parameters)
+        public HashSet<PlanEntry> Build(List<Exercise> exerciseList, WorkoutParameters parameters)
         {
             var exerciseQuantity = _random.Next(parameters.minimumExerciseQuantity, parameters.maximumExerciseQuantity);
-            var result = new List<PlanEntry>();
+            var result = new HashSet<PlanEntry>();
 
-            for (int i = 0; i < exerciseQuantity; i++)
+            while (result.Count < exerciseQuantity)
             {
                 var elem = exerciseList.ElementAt(_random.Next(0, exerciseList.Count));
                 var entry = new PlanEntry()
@@ -34,7 +34,10 @@ namespace ExerciseBuilder.Domain.Services
                     Quantity = GetQuantityByMethod(elem.Method)
                 };
 
-                result.Add(entry);
+                if (!result.Contains(entry))
+                {
+                    result.Add(entry);
+                }
             }
 
             return result;

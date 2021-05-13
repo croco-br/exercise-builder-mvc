@@ -8,6 +8,6 @@ namespace ExerciseBuilder.Domain.Interfaces
 {
     public interface IPlannerService
     {
-        List<PlanEntry> Build(List<Exercise> exerciseList, WorkoutParameters parameters);
+        HashSet<PlanEntry> Build(List<Exercise> exerciseList, WorkoutParameters parameters);
     }
 }

@@ -12,12 +12,20 @@ namespace ExerciseBuilder.Domain.Services
 {
     public sealed class ExerciseService : IExerciseService
     {
+        private List<Exercise> exerciseList;
+
         public async Task<List<Exercise>> Generate()
         {
+            if (exerciseList != null)
+            {
+                return exerciseList;
+            }
+
             using (FileStream fs = File.OpenRead("Config/exercise-list.json"))
             {
                 var jsonObj = await JsonSerializer.DeserializeAsync<ExerciseRoot>(fs);
-                return jsonObj.ExerciseList;
+                exerciseList = jsonObj.ExerciseList;
+                return exerciseList;
             }
         }
     }

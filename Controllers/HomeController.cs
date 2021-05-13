@@ -32,23 +32,22 @@ namespace ExerciseBuilder.Controllers
             {
                 Exercises = exercises,
                 MuscleGroups = exercises
-                .Select(x=> x.MuscleGroup)
+                .Select(x => x.MuscleGroup)
                 .Distinct().ToList(),
-                Plan = plan
             });
         }
 
-          public async Task<IActionResult> Generate(object parameters)
+        public async Task<IActionResult> Randomize()
         {
             var exercises = await _exerciseService.Generate();
             var plan = _plannerService.Build(exercises,
-                                             new WorkoutParameters(3,5,5,10));
+                                             new WorkoutParameters(1, 5, 3, 12));
 
-            return View("Index", new HomeViewModel()
+            return View("Plan", new PlanViewModel()
             {
                 Exercises = exercises,
                 MuscleGroups = exercises
-                .Select(x=> x.MuscleGroup)
+                .Select(x => x.MuscleGroup)
                 .Distinct().ToList(),
                 Plan = plan
             });

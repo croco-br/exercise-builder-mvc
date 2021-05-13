@@ -26,7 +26,7 @@ namespace ExerciseBuilder
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddTransient<IExerciseService, ExerciseService>();
+            services.AddSingleton<IExerciseService, ExerciseService>();
             services.AddTransient<IPlannerService, PlannerService>();
              
         }
